@@ -118,7 +118,16 @@ sentence-transformers
 
 ---
 
-## 👨‍💻 Developed By
+---
+
+## 📂 Large Data Files
+
+The following large files are hosted on Google Drive due to GitHub size restrictions:
+
+- [Download arxiv_subset.csv (840 MB)] (https://drive.google.com/drive/folders/1L3HqkRwlIaxviW0Z02gR-sJ42LHcC0cS?usp=sharing)
+- [Download paper_embeddings.npy (950 MB)] (https://drive.google.com/drive/folders/1fXLxAPo0UA0XpE4OcMTL4pGMXYUrIX81?usp=sharing)
+
+---
 
 **Pratham Modi**  
 📅 August 2025  
