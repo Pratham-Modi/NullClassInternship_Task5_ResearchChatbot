@@ -52,7 +52,7 @@ Task5_ResearchChatbot/
 ```
 
 > ✅ `data_loader.py` is now inside the `data/` folder since it's only relevant for preprocessing and not needed during app execution.  
-> ✅ `paper_embeddings.npy` has been moved to the `model/` folder for clean separation.
+> ✅ `paper_embeddings.npy` has been moved to the `models/` folder for clean separation.
 
 ---
 
