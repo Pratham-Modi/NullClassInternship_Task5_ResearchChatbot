@@ -32,22 +32,23 @@ This project implements a **semantic search engine** for academic papers using a
 ## 🧱 Final Project Structure
 
 ```
-task5/
-│
-├── app.py ← Streamlit app (frontend logic)
-├── requirements.txt ← Required Python packages
-├── README.md ← Updated project documentation
-├── .gitignore ← Files to ignore in GitHub
+Task5_ResearchChatbot/
 │
 ├── data/
-│ └── arxiv_subset.csv ← Dataset (CSV format)
+│   └── arxiv_subset.csv           # Dataset (CSV format)
+│   └── data_loader.py             # Script to load and preprocess raw JSON data into CSV
 │
 ├── models/
-│ └── paper_embeddings.npy ← Precomputed normalized embeddings
+│   └── paper_embeddings.npy       # Precomputed normalized embeddings (NumPy array)
 │
 ├── src/
-│ ├── search_engine.py ← Semantic + TF-IDF hybrid search engine
-│ └── embedder.py ← Embedding generation script
+│   ├── search_engine.py           # Semantic + TF-IDF hybrid search engine logic
+│   └── embedder.py                # Embedding generation script
+│
+├── app.py                        # Streamlit UI and main app logic
+├── .gitignore                    # Files and folders to ignore in GitHub
+├── README.md                     # Project overview and setup instructions
+└── requirements.txt              # Python dependencies
 ```
 
 > ✅ `data_loader.py` is now inside the `data/` folder since it's only relevant for preprocessing and not needed during app execution.  
@@ -60,8 +61,8 @@ task5/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/NullClassInternship_Task5_PaperSearch.git
-cd NullClassInternship_Task5_PaperSearch
+git clone https://github.com/Pratham-Modi/NullClassInternship_Task5_ResearchChatbot
+cd NullClassInternship_Task5_ResearchChatbot
 ```
 
 ### 2. (Optional) Create Virtual Environment
