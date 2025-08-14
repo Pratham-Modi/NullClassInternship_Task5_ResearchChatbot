@@ -118,8 +118,6 @@ sentence-transformers
 
 ---
 
----
-
 ## 📂 Large Data Files
 
 The following large files are hosted on Google Drive due to GitHub size restrictions:
