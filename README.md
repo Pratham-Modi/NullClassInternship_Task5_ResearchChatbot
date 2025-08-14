@@ -34,11 +34,11 @@ This project implements a **semantic search engine** for academic papers using a
 ```
 Task5_ResearchChatbot/
 │
-├── data/
+├── data/                          # Download from Google Drive (see link below)
 │   └── arxiv_subset.csv           # Dataset (CSV format)
 │   └── data_loader.py             # Script to load and preprocess raw JSON data into CSV
 │
-├── models/
+├── models/                        # Download from Google Drive (see link below)
 │   └── paper_embeddings.npy       # Precomputed normalized embeddings (NumPy array)
 │
 ├── src/
@@ -122,8 +122,11 @@ sentence-transformers
 
 The following large files are hosted on Google Drive due to GitHub size restrictions:
 
-- [Download arxiv_subset.csv (840 MB)] (https://drive.google.com/drive/folders/1L3HqkRwlIaxviW0Z02gR-sJ42LHcC0cS?usp=sharing)
-- [Download paper_embeddings.npy (950 MB)] (https://drive.google.com/drive/folders/1fXLxAPo0UA0XpE4OcMTL4pGMXYUrIX81?usp=sharing)
+- **Data:** [Download](https://drive.google.com/drive/folders/1L3HqkRwlIaxviW0Z02gR-sJ42LHcC0cS?usp=sharing)
+-  **Models:**[Download](https://drive.google.com/drive/folders/1fXLxAPo0UA0XpE4OcMTL4pGMXYUrIX81?usp=sharing)
+
+After downloading, place `arxiv_subset.csv` in the `data/` folder  
+and `paper_embeddings.npy` in the `models/` folder before running the app.py
 
 ---
 
